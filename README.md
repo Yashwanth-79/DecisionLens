@@ -90,7 +90,4 @@ decisionlens/
 ```
 License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
-Copy
-This README provides a comprehensive guide for users and potential contributors to understand, install, and use your DecisionLens project. You may want to customize it further based on specific details of your project implementation or any additional features you add.
 
-Remember to create the mentioned CONTRIBUTING.md and LICENSE.md files if you haven't already,
