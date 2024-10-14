@@ -75,7 +75,7 @@ def display_error_message(e):
 
 def login_signup():
     st.title("Welcome to DecisionLens🧠")
-    st.write("Kindly use Light mode, from settings -> right top corner")
+    st.write("Kindly use Light mode, from settings -> right top corner for better ui/ux")
     st.subheader("Login / Sign Up ")
 
     choice = st.selectbox("Select an option:", ["Login", "Sign Up"], index=0)
@@ -255,7 +255,7 @@ def market_analysis():
             os.unlink(tmp_file_path)
 
     # Sidebar for input
-    st.sidebar.header("Market Analysis Options")
+    st.sidebar.header("Real-time Market Analysis Options")
     options = st.sidebar.radio("Select Analysis Type", ("Commodities", "Companies"))
 
     if options == "Commodities":
@@ -332,7 +332,7 @@ def business_strategy_assistant():
         st.info("Your API key is required to Chat with our assistant.")
 
     # Main title and description
-    st.title("DecisionLens: Business Strategy Assistant")
+    st.title("📈 Business Strategy Assistant")
     st.write("Upload documents and ask questions to get strategic business insights.")
 
     # Initialize session state for chat history
@@ -431,7 +431,8 @@ def business_strategy_assistant():
             st.experimental_rerun()
 
 def data_strategy_simulator():
-    st.title("🎯 DecisionLens: AI-Powered Data Strategy Simulator")
+    st.title("🎯 AI-Powered Data Strategy Simulator")
+    st.write("Connect to your local database(MySql/PostgreSQL/SQLlite,etc)")
 
     # Sidebar for configuration
     st.sidebar.header("Configuration")
