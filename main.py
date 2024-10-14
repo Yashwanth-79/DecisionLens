@@ -71,7 +71,7 @@ def display_error_message(e):
     elif "INVALID_PASSWORD" in error_message:
         st.error("Incorrect password. Please try again.")
     else:
-        st.error("Authentication failed. Please check your input and try again.")
+        st.error("Press login again and wait...")
 
 def login_signup():
     st.title("Welcome to DecisionLens🧠")
