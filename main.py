@@ -75,6 +75,7 @@ def display_error_message(e):
 
 def login_signup():
     st.title("Welcome to DecisionLens🧠")
+    st.write("Kindly use Light mode, from settings -> right top corner")
     st.subheader("Login / Sign Up ")
 
     choice = st.selectbox("Select an option:", ["Login", "Sign Up"], index=0)
