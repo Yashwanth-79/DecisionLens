@@ -49,7 +49,7 @@ st.markdown(
     """
     <style>
     .stApp {
-        background-image: url('https://www.freepptbackgrounds.net/wp-content/uploads/2020/02/Blue-Glossy-PPT-Backgrounds.jpg');
+        background-image: url('https://img.freepik.com/free-vector/blue-gradient-blank-background-business_53876-120508.jpg');
         background-size: cover;
         background-position: center;
     }
