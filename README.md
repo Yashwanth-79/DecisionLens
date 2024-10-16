@@ -1,4 +1,4 @@
-# DecisionLens: AI-Powered Business Strategy Assistant
+# DecisionLens: AI-Powered Data Strategy Simulator for Enterprise Decision-Making
 
 DecisionLens is an innovative AI-powered application designed to assist businesses in making data-driven strategic decisions. It combines market analysis, business strategy assistance, and data strategy simulation to provide comprehensive insights for decision-makers.
 
