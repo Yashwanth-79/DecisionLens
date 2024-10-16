@@ -163,7 +163,7 @@ def market_analysis():
     """, unsafe_allow_html=True)
 
     # API keys
-    ALPHA_VANTAGE_API_KEY = "60HGRBWV0CRP2Q24"
+    ALPHA_VANTAGE_API_KEY = "EQPCKN7OPI8HRFIR"
     GROQ_API_KEY = "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"
 
     # Initialize Groq LLM
