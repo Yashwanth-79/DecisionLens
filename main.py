@@ -104,7 +104,7 @@ def login_signup():
                 display_error_message(e)
 
 def landing_page():
-    st.markdown("## DecisionLens: AI-Powered Data Strategy Simulator for Enterprise Decision-Making")
+    st.markdown("#### DecisionLens: AI-Powered Data Strategy Simulator for Enterprise Decision-Making")
     st.write(f"Welcome {st.session_state.email} 🌼")
     st.write("DecisionLens is your AI-powered companion for data-driven business strategies.")
     
