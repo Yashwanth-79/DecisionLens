@@ -25,13 +25,13 @@ from langchain.chains import RetrievalQA
 
 # Firebase configuration
 firebase_config = {
-    "apiKey": "AIzaSyAVYykWmf8B9HPCcSFz6tZugNC5eS7vefQ",
-    "authDomain": "prithvi-45d3f.firebaseapp.com",
-    "projectId": "prithvi-45d3f",
-    "storageBucket": "prithvi-45d3f.appspot.com",
-    "messagingSenderId": "292756309891",
-    "appId": "1:292756309891:web:56094a7f63f1ee0d88d8b6",
-    "databaseURL": "https://prithvi-45d3f-default-rtdb.firebaseio.com"
+    "apiKey": "AI5eS7vefQ",
+    "authDomain": ".firebaseapp.com",
+    "projectId": ",
+    "storageBucket": "prom",
+    "messagingSenderId": "291",
+    "appId": "1:29:web8b6",
+    "databaseURL": "https://firebaseio.com"
 }
 
 # Initialize Firebase for authentication
@@ -39,7 +39,7 @@ firebase = pyrebase.initialize_app(firebase_config)
 auth = firebase.auth()
 
 # Initialize Firebase Admin for database access
-cred = credentials.Certificate('prithvi-45d3f-firebase-adminsdk-o4c77-62e1d077aa.json')
+cred = credentials.Certificate('prithvi-45d3f-firebase-adminsdk-o4c77a.json')
 if not firebase_admin._apps:
     firebase_admin.initialize_app(cred)
 db = firestore.client()
